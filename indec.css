@@ -1,0 +1,44 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    color: #b92b27;
+}
+h3{
+    color: rgb(249, 8, 48);
+}
+#login{
+    background-color: aqua;
+    color: rgb(245, 22, 237);
+}
+#signup{
+    background-color: #27b961;
+    color: white;
+}
+.a{
+    background-color: darksalmon;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+button:active{
+    background-color: darkorange;
+    color: rgb(130, 16, 229);
+}
+
+p:active{
+    font-weight: bold;
+    color: purple;
+}  
+
+.follow{
+    background-color: chartreuse;
+}
+
+p::selection{
+    background-color: rgb(20, 231, 255);
+}
