@@ -1,16 +1,6 @@
 
-console.log(a);
-let a = 10
+let x;
+console.log(x); // undefined
 
-
-console.log(a);
-let b = 10
-
-
-
-console.log(a);
-let c = 10
-
-
-console.log(a);
-let d = 10
+let y;
+console.log(y); // undefined
