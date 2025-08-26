@@ -1,6 +1,18 @@
+function findMinMaxLoop(arr) {
+  if (arr.length === 0) return null;
 
-let x;
-console.log(x); // undefined
+  let min = arr[0];
+  let max = arr[0];
 
-let y;
-console.log(y); // undefined
+  for (let i = 1; i < arr.length; i++) {
+    if (arr[i] < min) min = arr[i];
+    if (arr[i] > max) max = arr[i];
+  }
+
+  return { min, max };
+}
+
+// Example usage:
+const numbers = [10, 25, 3, 99, 56, 1];
+console.log(findMinMaxLoop(numbers));
+// Output: { min: 1, max: 99 }
