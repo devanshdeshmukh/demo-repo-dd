@@ -21,11 +21,27 @@
 
 
 
-let name = "Jack";
-let sum = function(a, b){
-  return a+b;
-}
+// let name = "Jack";
+// let sum = function(a, b){
+//   return a+b;
+// }
 
-let hello = function(){
-  console.log("hello");
+// let hello = function(){
+//   console.log("hello");
+// }
+
+
+
+
+
+const student = {
+  name: "menos",
+  age: 21,
+  phy: 89,
+  eng: 95,
+  maths: 90,
+  getAvg(){
+    let avg = (this.phy + this.eng + this.maths)/3;
+    console.log(avg);
+  }
 }
